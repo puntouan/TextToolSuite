@@ -10,3 +10,37 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Intellij IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.ini
+*.*~
+
+# Target
+target/
+
+# eclipse
+.project
+.settings/
+.classpath
+bin/
+
+# other
+*.gz
+*.tar.gz
+*.tgz
+*.zip
+*.tsv
+logs/
+
+# H2
+*.db
+
+# cert
+banner.txt
+keystore.jks
+selfsigned.crt
+
